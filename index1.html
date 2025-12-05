@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gokarna Cab Service</title>
+  <link rel="stylesheet" href="test.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">🚗 Gokarna Cab Service</div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#location">Locations</a>
+      <a href="#rental">Rental</a>
+      <a href="#contact">Contact</a>
+      <a href="#"><i class="fa fa-search"></i></a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Places like Heaven</h2>
+      <h1>GOKARNA</h1>
+      <button class="btn" onclick="location.href='#contact'">Book Now</button>
+
+    </div>
+  </section>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Gokarna Cab Service and Bike Rental is a trusted travel agency in Gokarna,
+      offering reliable cab and tour services across Karnataka and beyond.
+      With years of experience, we focus on safety, comfort, and timely service.
+    </p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2 class="section-title">TOP PLACES</h2>
+    <p class="section-subtitle">Explore The Most Popular Places of Uttarakannada</p>
+    <div class="card-container">
+      <div class="card">
+        <img
+          src="https://th.bing.com/th/id/R.37c3d963cfd55672b6981a09b478b2ad?rik=DyWjE%2fu5d4nydg&riu=http%3a%2f%2fwww.mangaloretaxi.com%2fwp-content%2fuploads%2fOm_beach_Gokarna4.jpg&ehk=UW6ddwC72EdbvTim4oNnViT2eorNln8QBBRbn4zFkiQ%3d&risl=&pid=ImgRaw&r=0"
+          alt="Gokarna Beaches">
+        <div class="card-content">
+          <h3>Gokarna Beaches</h3>
+          <p>Main beach, Kudle beach,<br>
+            Om beach and Belekhan beach</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Yana.jpeg" alt="Scenic Adventure">
+        <div class="card-content">
+          <h3>Scenic Adventure</h3>
+          <p>Yana Caves & Vibhuti Falls</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Murdeshwara.jpeg" alt="One Day Tour">
+        <div class="card-content">
+          <h3>One Day Tour</h3>
+          <p>Mirjan Fort, Honnavara, Eco beach <br>
+            Murdeshwara Temple and Beach</p>
+        </div>
+      </div>
+      <br><br>
+      <div class="card">
+        <img src="Udupi.jpeg" alt="Temple Visiting">
+        <div class="card-content">
+          <h3>Temple Visiting</h3>
+          <p>Kolluru, Udupi, Sringeri, Horanadu
+            Dharmastala & Kukke</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Airport.jpeg" alt="Airport Pickup and Drop">
+        <div class="card-content">
+          <h3>Airport Pickup and Drop</h3>
+          <p>Dabolim, Mopa,
+            Hubli & Mangalore </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rental" class="section">
+    <h2 class="section-title">Scooter and Bikes </h2>
+    <p class="section-subtitle">We provide awesome and amazing bikes of different types
+       and at affordable prices.</p>
+    <div class="blog-container">
+      <div class="blog-card">
+        <img src="activa-6g68a6fb7b20bd3.avif" alt="">
+        <h3>Honda</h3>
+        <p>Activa and Dio</p>
+      </div>
+      <div class="blog-card">
+        <img src="download.jpg" alt="">
+        <h3>Suzuki</h3>
+        <p>Access and Avinesh</p>
+      </div>
+      <div class="blog-card">
+        <img src="81ff6943-686c-4f96-b18e-28d22c0428eb.jpg" alt="">
+        <h3>Bikes</h3>
+        <p>Hunter 350</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Gokarna, Uttara Kannada, Karnataka</p>
+    <p>📞 +91 6360829634</p>
+    <p>✉️ naikcharan993@gmail.com</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="text" placeholder="Pickup Point" required />
+      <input type="text" placeholder="Drop Point" required />
+      <input type="text" placeholder="Your Number" required />
+      <select id="vehicle" required>
+        <option value="">Select Vehicle</option>
+        <option>Toyota glanza</option>
+        <option>Swift</option>
+        <option>Ertiga</option>
+        <option>Innova</option>
+        <option>Tempo Travler</option>
+        <option>Activa</option>
+        <option>Dio</option>
+        <option>Hunter 350</option>
+
+      </select>
+
+      <button type="button" class="btn" onclick="sendToWhatsApp()">Send Message</button>
+    </form>
+  </section>
+
+
+  <section id="location" class="section">
+  <h2 class="section-title">Rate Us On Google</h2>
+  <p class="section-subtitle"></p>
+  <div class="card-container">
+    <div class="cards">
+        <img src= "qrcode.png"  alt="Review us">
+        <div class="card-content">
+          <button class="btn" onclick="window.open('https://share.google/BCOUImbS6EO6SiTh2', '_blank')">
+        🌟 Rate Us on Google</button>
+
+        </div>
+    </div>
+  </div>
+  </section>
+
+    <footer class="footer">
+    <div class="footer-bottom">
+      <p>© 2025 Gokarna Cab Service | All Rights Reserved by charan naik74.</p>
+    </div>
+
+  </div>
+</section>
+
+
+ <script>
+    function sendToWhatsApp() {
+      const name = document.querySelector('input[placeholder="Your Name"]').value;
+      const pickup = document.querySelector('input[placeholder="Pickup Point"]').value;
+      const drop = document.querySelector('input[placeholder="Drop Point"]').value;
+      const phone = document.querySelector('input[placeholder="Your Number"]').value;
+      const vehicle = document.querySelector('#vehicle').value;
+
+      const phoneNumber = "916360829634"; // ✅ Your WhatsApp number (with country code, no + or spaces)
+
+      const message = `Hello, I'm ${name}.
+Pickup: ${pickup}
+Drop:${drop}
+Number: ${phone}
+Vehicle: ${vehicle}`;
+
+      // Encode message for URL
+      const encodedMessage = encodeURIComponent(message);
+
+      // WhatsApp link
+      const url = `https://wa.me/${916360829634}?text=${encodedMessage}`;
+
+      // Open WhatsApp
+      window.open(url, "_blank");
+    }
+  </script>
+
+</body>
+
+</html>
